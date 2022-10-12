@@ -1,37 +1,70 @@
 body { 
-    margin: 0%;
+    background-color: #D6EFED;
+    margin: ;
     text-align: center;
     font-family:  'Merriweather', serif;
 }
 h1{
-    margin-top: 20px;
+    color: #66BFBF;
+    font-size: 90px;
+    margin: 50px;
+    padding: 10px;
     display: inline-block;
     font-family:'Sacramento',cursive;
     font-weight: bold;
+    
 }
 h2{
+    color: #66BFBF;
+    font-size: 2.5rem;
     font-family:'Montserrat', sans-serif;
+    font-weight: normal;
     margin-top: 5px;
 
 }
-div{
-    background-color: #4FBDBA;
+h3{
+    color: #11999E;
 }
+h4{
+    color:#11999E;
+}
+
 .top-container{
-    background-color: #4FBDBA;
+    background-color: ;
     position: relative;
-    padding-top: 50px;
+    padding:auto;
+}
+.footer-link{
+    color: #11999E;
 }
 .middle-container{
-    background-color: red;
-    height: 200px;
-    width: 200px;
+    
 
 }
 .bottom-container{
-    background-color: blue;
-    height: 200px;
-    width: 200px;
+    
+}
+.skill-row{
+    width: 50%;
+    margin:auto;
+    text-align: left;
+    line-height: 2;
+}
+.Imagestag{
+        border-radius: 50%; 
+        width: 150px;
+        height: 150px;
+        margin-right: 20px;
+        margin-bottom:10px;
+        float: left;
+}
+.Imagesfootball{
+        border-radius: 50%; 
+        width: 120px;
+        height: 120px;
+        float: right;
+        margin-left: 30px;
+        margin-bottom: 10px;
 }
 .top-cloud{
     position: absolute;
@@ -42,4 +75,12 @@ div{
     position: absolute;
     left: 300px;
     bottom: 310px;
+}
+.Images{ 
+        border-radius: 50%; 
+        width: 200px;
+        height: 200px;
+}
+.contact-me{
+    margin-top: 50px;
 }
